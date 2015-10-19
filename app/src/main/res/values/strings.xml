@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RadioStationsListApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="or_symbol_with_spaces">\u0020|\u0020</string>
+</resources>
