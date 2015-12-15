@@ -1,4 +1,4 @@
-package com.radiostationslist;
+package list.radiostations.com.radiostationslistapp;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

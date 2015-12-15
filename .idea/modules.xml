@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/RadioStationsList.iml" filepath="$PROJECT_DIR$/RadioStationsList.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/RadioStationsListApp.iml" filepath="$PROJECT_DIR$/RadioStationsListApp.iml" />
+>>>>>>> e27f5fe6cfae58e71c7f2ddf19513a1189bd1bf9
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
