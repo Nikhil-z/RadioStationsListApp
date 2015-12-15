@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_list"
+    android:paddingEnd="@dimen/list_item_padding_left_right"
+    android:paddingLeft="@dimen/list_item_padding_left_right"
+    android:paddingRight="@dimen/list_item_padding_left_right"
+    android:paddingStart="@dimen/list_item_padding_left_right">
+
+    <TextView
+        android:id="@+id/txtHeaderBand_list_item_view_stations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_between_text_list_item"
+        android:text="txtHeaderBand_list_item_view_stations"
+        android:textColor="@color/blue_header_list_item"
+        android:textSize="@dimen/txt15sp" />
+
+    <View
+        android:id="@+id/view_blueBelowHeader_list_item_view_stations"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/txtHeaderBand_list_item_view_stations"
+        android:layout_marginBottom="@dimen/padding_between_text_list_item"
+        android:background="@color/blue_header_list_item" />
+
+    <ImageView
+        android:id="@+id/imgLogo_list_item_view_stations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/view_blueBelowHeader_list_item_view_stations"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/txtFrequencyAndName_list_item_view_stations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_blueBelowHeader_list_item_view_stations"
+        android:layout_toEndOf="@+id/imgLogo_list_item_view_stations"
+        android:layout_toRightOf="@+id/imgLogo_list_item_view_stations"
+        android:ellipsize="end"
+        android:paddingLeft="@dimen/padding_between_text_list_item"
+        android:paddingRight="@dimen/padding_between_text_list_item"
+        android:paddingTop="@dimen/padding_between_text_list_item"
+        android:singleLine="true"
+        android:text="txtFrequencyAndName_list_item_view_stations"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/txt20sp" />
+
+    <TextView
+        android:id="@+id/txtStationDesc_list_item_view_stations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtFrequencyAndName_list_item_view_stations"
+        android:layout_toEndOf="@+id/imgLogo_list_item_view_stations"
+        android:layout_toRightOf="@+id/imgLogo_list_item_view_stations"
+        android:ellipsize="end"
+        android:paddingLeft="@dimen/padding_between_text_list_item"
+        android:paddingRight="@dimen/padding_between_text_list_item"
+        android:paddingTop="@dimen/padding_between_text_list_item"
+        android:singleLine="true"
+        android:text="txtStationDesc_list_item_view_stations"
+        android:textColor="@color/gray_dark_text"
+        android:textSize="@dimen/txt15sp" />
+
+    <TextView
+        android:id="@+id/txtStationFormat_list_item_view_stations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtStationDesc_list_item_view_stations"
+        android:layout_toEndOf="@+id/imgLogo_list_item_view_stations"
+        android:layout_toRightOf="@+id/imgLogo_list_item_view_stations"
+        android:ellipsize="end"
+        android:paddingBottom="@dimen/padding_between_text_list_item"
+        android:paddingLeft="@dimen/padding_between_text_list_item"
+        android:paddingRight="@dimen/padding_between_text_list_item"
+        android:paddingTop="@dimen/padding_between_text_list_item"
+        android:singleLine="true"
+        android:text="txtStationFormat_list_item_view_stations"
+        android:textColor="@color/gray_dark_text"
+        android:textSize="@dimen/txt15sp" />
+
+    <View
+        android:id="@+id/view_grayLineBottom_list_item_view_stations"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/txtStationFormat_list_item_view_stations"
+        android:background="@color/gray_dark_text" />
+</RelativeLayout>

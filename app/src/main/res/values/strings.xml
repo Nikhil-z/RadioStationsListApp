@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RadioStationsList</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="or_symbol_with_spaces">\u0020|\u0020</string>
+
+    <string name="LoadingProgressDialog">Loading&#8230;</string>
+
+    <!-- Alert strings for complete App -->
+    <string name="NoInternetConnection">No internet connection detected! A working internet connection is needed to continue.</string>
+    <string name="UnableToConnectToServer">We are unable to connect to the server! Please try again a bit later.</string>
+    <string name="RequestTimedOutConnectingToServer">Request timed out while connecting to the server! Please try again a bit later.</string>
+    <string name="OopsSomethingWentWrongPleaseTryABitAgainLater">Oops! Something went wrong. Please try again a bit later.</string>
+    <string name="OopsSomethingWentWrong">Oops! Something went wrong.</string>
+    <string name="OK">OK</string>
+</resources>
